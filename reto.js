@@ -22,3 +22,21 @@ for(let i = 0; i<numbers.length; i++){
     }
 }
     console.log(suma)
+
+ //Dado un array de numeros y strings imprime un array solamente los strings
+
+    let numerList = [1,2,3,4,5,6,7,8,9]
+    let strings = ['hola' , 'adios']
+    for(let i=0; i<strings.length; i++){
+        console.log(strings[i]);
+    }
+
+//Dado un array de strings imprime un array de solamente los strings que empiezan por ‘a’.
+    let words= ["verde" , "azul" , "rojo" , "amarillo"];
+    let wordsA= [];
+    for (let i=0; i<words.length; i++){
+        if (words[i][0] == 'a'){
+            wordsA.push(words[i]);
+        }
+    }
+    console.log(wordsA)
